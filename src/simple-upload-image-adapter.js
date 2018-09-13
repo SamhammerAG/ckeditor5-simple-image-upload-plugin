@@ -6,7 +6,7 @@ export default class SimpleUploadImageAdapter {
     }
 
     upload() {
-        const uploadHook = this.config.config.get('onImageUpload');
+        const uploadHook = this.config.get('onImageUpload');
         return uploadHook(this.loader.file).then(url => ({ default: url }));
     }
 
