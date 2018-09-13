@@ -1,0 +1,23 @@
+{
+  "name": "@samhammer/ckeditor5-simple-image-upload-plugin",
+  "version": "1.0.0",
+  "main": "src/simple-upload-image-plugin.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamhammerAG/ckeditor5-simple-image-upload-plugin.git"
+  },
+  "keywords": [],
+  "author": "SamhammerAG (https://www.samhammer.de/)",
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
+  "bugs": {
+    "url": "https://github.com/SamhammerAG/ckeditor5-simple-image-upload-plugin/issues"
+  },
+  "homepage": "https://github.com/SamhammerAG/ckeditor5-simple-image-upload-plugin#readme",
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^11.0.0",
+    "@ckeditor/ckeditor5-upload": "^10.0.2"
+  }
+}
