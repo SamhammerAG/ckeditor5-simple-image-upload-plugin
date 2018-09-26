@@ -35,6 +35,9 @@ InlineEditor
 		onImageUpload: file => {
             // do any upload stuff here with the JS-File-Object
             return Promise.resolve("http://path/to/the/uploaded/image.jpg");
+        },
+        abortImageUpload: () => { // OPTIONAL
+            // abort the upload here. The promise from onImageUpload should be rejected after that.
         }
 	} )
 	.then( ... )

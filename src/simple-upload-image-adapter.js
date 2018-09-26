@@ -11,7 +11,7 @@ export default class SimpleUploadImageAdapter {
     }
 
     abort() {
-        // Reject promise returned from upload() method.
-        server.abortUpload();
+        const abortHook = this.config.get('abortImageUpload') || (() => null);
+        abortHook();
     }
 }
