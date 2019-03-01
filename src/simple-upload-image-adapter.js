@@ -6,12 +6,12 @@ export default class SimpleUploadImageAdapter {
     }
 
     upload() {
-        const uploadHook = this.config.get('onImageUpload');
+        const uploadHook = this.config.get('simpleImageUpload').onUpload;
         return uploadHook(this.loader.file).then(url => ({ default: url }));
     }
 
     abort() {
-        const abortHook = this.config.get('abortImageUpload') || (() => null);
+        const abortHook = this.config.get('simpleImageUpload').onAbort || (() => null);
         abortHook();
     }
 }
