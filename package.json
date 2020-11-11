@@ -1,6 +1,6 @@
 {
   "name": "@samhammer/ckeditor5-simple-image-upload-plugin",
-  "version": "3.10.0",
+  "version": "3.11.0",
   "main": "src/simple-upload-image-plugin.js",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/SamhammerAG/ckeditor5-simple-image-upload-plugin#readme",
   "dependencies": {
-    "@ckeditor/ckeditor5-core": "~22.0.0",
-    "@ckeditor/ckeditor5-upload": "~22.0.0"
+    "@ckeditor/ckeditor5-core": "~23.1.0",
+    "@ckeditor/ckeditor5-upload": "~23.1.0"
   }
 }
