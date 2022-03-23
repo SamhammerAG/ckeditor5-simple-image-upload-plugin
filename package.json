@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/SamhammerAG/ckeditor5-simple-image-upload-plugin#readme",
   "dependencies": {
-    "@ckeditor/ckeditor5-core": "^31.1.0",
-    "@ckeditor/ckeditor5-upload": "^31.1.0"
+    "@ckeditor/ckeditor5-core": "^33.0.0",
+    "@ckeditor/ckeditor5-upload": "^33.0.0"
   }
 }
